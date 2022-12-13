@@ -1,0 +1,16 @@
+{
+    "plugins": [
+      ["module-resolver", {
+        "root": ["./"],
+        "alias": {
+          "@parsehub/assets": "./src/assets",
+          "@parsehub/components": "./src/components",
+          "@parsehub/constants": "./src/constants",
+          "@parsehub/hoc" : "./src/hoc",
+          "@parsehub/pages" : "./src/pages",
+          "@parsehub/routes" : "./src/routes",
+          "@parsehub/*": ["src/*"]
+        }
+      }]
+    ]
+  }

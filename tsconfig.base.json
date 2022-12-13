@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@parsehub/*": ["src/*"],
+        },
+    },
+    "exclude": ["node_modules/"]
+}
